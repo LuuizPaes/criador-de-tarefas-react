@@ -13,12 +13,12 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
   }
 
   return (
-    <ul className="space-y-4 bg-slate-200 p-6 rounded-md shadow">
+    <ul className="space-y-4 bg-violet-950 p-6 rounded-md shadow">
       {tasks.map((tasks) => (
         <li key={tasks.id} className="flex gap-2">
           <button
             onClick={() => onTaskClick(tasks.id)}
-            className={`bg-slate-400 text-left flex items-center gap-2 w-full text-white p-2 rounded-md ${
+            className={`bg-slate-50 text-left flex items-center gap-2 w-full text-neutral-900 p-2 rounded-md ${
               tasks.isCompleted && "line-through"
             }`}
           >
