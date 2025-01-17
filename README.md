@@ -3,7 +3,7 @@
 Este é um sistema de criador de tarefas desenvolvido em React com vite, onde utilizei o tailwind para estilização. Para esse projeto eu utilizei Libs como Lucila para estilização dos icones, react router para iteração das páginas, também alguns hoocks como states, SearchParams, Navigate, useEffect e uso da APi JSONPlaceholder para teste. 
 
 ## Vizualize o projeto
-(https://curso-de-react-y.vercel.app/)
+(https://criador-de-tarefas-react.vercel.app/)
 
 ## Funcionalidades
 - Campo para inserir a tarefa
